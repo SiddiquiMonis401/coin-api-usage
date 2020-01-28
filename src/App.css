@@ -1,0 +1,139 @@
+/*nav styles start here */
+/*Background Sty;ing*/
+body{
+  margin-top: 100px;
+  background-image: url('./Images/blue-science-technology-background-vector-24924004.jpg');
+  color:white;
+}
+.nav-styles{
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr ;
+  font-family: 'Varela', sans-serif;
+  font-size: 15px ;
+  font-style: bold;
+  height: 70px;
+  align-items: center;
+  grid-gap: 0px;
+  border-bottom: 1px solid gainsboro;
+ 
+}
+
+.nav-styles > h3{
+  color:blue;
+  margin-left: 100px;
+  font-size: 20px;
+}
+.list-styles{
+  display: inline;
+  margin-left: 40px;
+  
+}
+#price-list{
+  padding: 22px;
+  border-bottom: 1px solid blue;
+}
+.btn-signin{
+  color:white;
+  text-align: center;
+  padding:10px;
+  margin-left: 10px;
+  border-radius: 5px 5px 5px 5px;
+   background-color:  rgb(117, 211, 117);
+  
+}
+.btn-trade{
+  height: 7vh;
+  width: 7vw;
+  align-self: center;
+  color:white;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 5px 5px 5px 5px;
+   background-color: blue;
+   border: none;
+  transition: 1s ease-in-out;
+}
+.btn-trade:hover{
+  background-color: peru;
+  color:black;
+}
+/*nav styles end heres */
+/*--------------------*/
+/*--------------------*/
+/*Header styles start here*/
+.header-styles{
+  display:grid;
+  grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+  align-items: center;
+  margin-top: 20px;  
+  justify-content: space-between;
+  
+}
+.header-text{
+  margin-left: 100px;
+  font-size: 20px;
+  font-family:  'Varela', sans-serif;
+  line-height: 0.5rem;
+}
+.search-container{
+
+  display: flex;
+  border: 1px solid grey;
+  text-align: center;
+  padding: 15px 20px;
+  justify-content: space-between;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 5  0px;
+  margin-right: 20px;
+   
+}
+#search{
+  border: none;
+  margin-left: 0px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.2;
+  
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+.select-time{
+  padding: 15px 20px;
+  text-align: center;
+  border-radius:10px 10px 10px 10px;
+  font-size: 20px;
+}
+.select-assets{
+  padding: 15px 10px;
+  text-align: center;
+  border-radius:10px 10px 10px 10px;
+  font-size: 20px;
+}
+/*Header styes end here */
+
+/*Price Header styes Start here */
+.price-header-styles,.price-list-styles{
+  margin-top: 10px;
+  padding: 20px 20px;
+  display: grid;
+  width: 78vw;
+  margin-left: 7.5vw;
+  border: 1px solid rgb(231, 216, 216);
+  grid-template-columns: 10vw 25vw 10vw 10vw 15vw 10vw;
+  font-size: 2vw;
+
+}
+.loading-logo{
+  margin-left: 40vw;
+  margin-top: 10vh;
+  font-size: 200px;
+  animation: logo 2s 0s infinite ease-in-out;
+}
+@keyframes logo{
+  from{
+    transform:rotate(0deg)
+  }
+  to{
+    transform: rotate(360deg)
+  }
+}
+/*Price Header styes end here */
